@@ -1,0 +1,408 @@
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+
+}
+
+/* Estilos del contenedor-1 */
+    .contenedor-1 {
+    
+        position: sticky;
+        top: 0;
+        
+        background-color: #B99B6B;
+    
+        width: 100%;
+        height: 25vmin;
+        margin-top: 5vmin;
+        border-radius: 20px;
+        box-shadow: 5px 5px 15px;
+
+        z-index: 30;
+
+            }
+
+        .div-foto {
+
+            position: absolute;
+            left:0;
+            display: inline-block;
+            margin: 0;
+            width: 40%;
+            text-align: center ;
+           
+
+
+                    }
+            .foto{
+
+
+                margin: 0;
+                width: 25vmin;
+                height: 25vmin;
+            
+                border-radius: 10em;
+                border: 3px solid blue;
+
+                padding-left: auto;
+                padding-right: auto;
+                
+                }
+               
+
+    .div-texto {
+
+        position: absolute;
+        left: 40.5%; 
+        display: inline-block;
+       
+        width: 59.5%;
+        height: 30vmin; 
+        text-align: left;
+        margin: 0;
+        padding-top: 1vw;
+       
+       
+            }
+
+        
+            h1 {
+                
+                padding: 0;
+                margin: 0;
+                margin-top: 3%;
+                margin-bottom: 3%;
+                text-align: left;
+                color: black;
+                text-shadow: 7px 0 10px gray;
+                font-size: 5vmin;
+                
+
+            }
+
+            h2 {
+            
+                padding: 0;
+                margin: 0;
+                margin-top: 10px;
+                color: white;
+                text-align: left;
+                font-size: 4.5vmin;
+                text-shadow: 0 10px 10px black;
+
+
+            }
+
+/* Estilos del contenedor-2 */
+.contenedor-2 {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #698269;
+    width: 40%;   
+    min-height: 100vh;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 10px -30px 10px black ;
+    margin: 0;
+    padding: 0;
+    padding-top: 32vmin;
+        
+}
+
+
+    .sobre-mi {
+
+        margin-left: 1vw;
+        
+        width: 95%;
+
+        text-align: center;
+        line-height: 3vmin;
+        margin-bottom: 3vmin;
+        
+    
+        
+        } 
+
+            .titulo-3 {
+
+                display: block;
+                background-color: #698269;
+                margin: 0;
+                margin-top: 3vmin;
+                padding: 0;
+                margin-bottom: 2vh;
+            
+                
+                color: lightcyan;
+                font-size: 3vmin;
+                text-shadow: 0 2px 5px black;
+                text-align: center;
+                
+
+            }
+
+            .text {
+
+                display: block;
+                text-align: left;
+                color: lightcyan;
+                font-size: 2.5vmin;
+                margin: 0;
+                padding: 0;
+                
+                
+
+            }
+
+/* Estilos de Información */
+    .contacto {
+
+        margin: 0;        
+        width: 95%;        
+        text-align: left;              
+        
+        }
+        
+
+        .info {   
+            
+            margin: 0;
+            padding: 0;
+            height: 5vmin;
+            
+       
+        }
+
+        .imagen-info {
+            
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: 3vmin;
+            margin-left: 1vmin;
+        }
+
+        .span {
+            margin: 0;
+            position: absolute;
+            left: 6vmin;
+            display: inline-block;
+            color: rgb(6, 32, 70);
+            margin: 0;
+            padding: 0;
+            line-height: 4vmin;
+            font-size: 2.1vmin;
+           
+  
+        }
+
+
+    .redes {
+
+        position: absolute;
+        bottom: 1vh;
+        margin: 0;
+        width: 95%;
+        margin-left: 1vmin;
+        text-align: center;
+        background-color: red;
+
+
+    }
+
+    .linkeding {
+
+        position: absolute;
+        bottom: 0.1vh;
+        left: 25%;
+        width: 10%;
+
+    }
+
+    .facebook {
+
+        position: absolute;
+        bottom: 0.1vh;
+        left: 37%;
+        width: 10%;
+        max-width: 50px;
+
+    }
+
+    .instagram {
+
+        position: absolute;
+        bottom: 0.1vh;
+        left: 49%;
+        width: 10%;
+        max-width: 50px;
+
+    }
+
+    .github {
+
+        position: absolute;
+        bottom: 0.1vh;
+        left: 61%;
+        width: 10%;
+        max-width: 50px;
+        
+    }
+
+.principal {
+
+position: absolute;
+top: 30vmin;
+right: 0;
+width: 60%;
+height: 65%;
+padding: 0;
+padding-top: 2vh;
+
+
+}
+
+    
+
+    .formacion, .conocimiento{
+
+        width: 100%;
+        margin: 0;
+        padding-left: 10%;
+       
+        
+    }
+
+        .titulo-4 {
+
+            margin: 0;
+            padding: 0;
+            margin-bottom: 1vh;
+           
+            text-align: center;
+            font-size: 3vmin;
+            color: blue;
+
+        }
+
+        ul {
+
+            margin: 0;
+            margin-left: 2.5vmax;
+            padding: 0;
+            padding-bottom: 1vh;
+            font-size: 2.2vmin;
+            color:black;
+
+            
+        }
+
+        .li-1 {
+
+            list-style-type:disc;
+            
+
+        }
+
+        .li-2 {
+
+            list-style-type:none;
+            font-style: italic;
+
+        }
+
+        /* Estilos de la pagina 3 */
+
+        .barra {          
+            
+            margin-left: 2vw;
+            width: 20vw;
+            height: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;  
+            margin-bottom: 2vh;        
+            
+        }
+
+        .progreso {
+
+           width: 30%;
+           height: 10px;
+           border-radius: 5px;
+           background-color: blue;
+          
+            
+        }
+
+      /* Estilos de la pagina 4 */  
+
+        .etiqueta{
+
+            margin: 2vw;
+        }
+        
+        .button {
+                        
+            text-align: center;         
+            
+
+        }
+
+        .form {
+
+            width: 50%;
+         
+
+        }
+
+        .form_field {
+
+            width: 90%;
+            margin-bottom: 3vh;
+            text-align: left;       
+           
+        }
+
+        .form_label, .comment {
+
+            width: 100%;
+            display:flex;
+            justify-content: space-between;
+            align-items:center;           
+
+        }
+
+     .comment {
+
+        height: 20vh;
+     }
+
+
+      
+       
+
+        
+
+
+
+
+
+
+
+
+
+            
+        
